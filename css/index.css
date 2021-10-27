@@ -1,0 +1,235 @@
+@charset "UTF-8";
+
+#bn {
+  width: 100%;
+  height: 900px;
+  background: rgb(194, 210, 227);
+  background: linear-gradient(30deg, rgba(194, 210, 227, 1) 41%, rgba(255, 255, 255, 1) 50%, rgba(185, 202, 221, 1) 61%);}
+
+#bnbox {
+  width: 1125px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#bnbox img {
+  height: 900px;
+  width: 900px;
+  position: absolute;
+  top: 20px;
+  right: -200px;
+}
+
+#bnp {
+  float: left;
+  font-size: 35pt;
+  font-family: "hancomgothicRegular";
+  margin: 250px 0px 0px 150px;
+}
+
+#bnbox b {
+  float: left;
+  font-size: 25pt;
+  font-family: "Arial";
+}
+
+
+#wk{border: 1px solid black; background-color: none; position: absolute; top: 580px; left: 150px; font-size: 20px; font-family: "Malgun Gothic"; font-weight: bolder; padding: 10px 20px;}
+#wk a{text-decoration: none; color: black;}
+
+#downcolor {
+  width: 100%;
+  height: 650px;
+  background-color: #f3f2ee;
+}
+
+#PICK {
+  width: 1125px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+
+#PICK h1 {
+  text-align: center;
+  font-family: Arial;
+  font-weight: bolder;
+  font-size: 30pt;
+}
+
+#PICK .md {
+  width: 250px;
+  height: 450px;
+  float: left;
+  margin: 50px 20px 0 85px;
+}
+
+#PICK .md img {
+  width: 250px;
+  height: 300px;
+  margin-bottom: 30px;
+}
+
+.imga {
+  margin-left: 70px;
+}
+
+#PICK p {
+  text-align: center;
+}
+
+.cart { 
+  border: 1px solid black;
+  padding: 10px 10px;
+  margin: 40px 45px 0 45px; 
+  text-align: center;
+}
+
+.cart a {
+  text-decoration: none;
+  color: black;
+}
+
+
+#down {
+  width: 100%;
+  height: 570px;
+  background-color: white;
+}
+
+#PICK2 {
+  width: 1125px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#PICK2 .md {
+  width: 250px;
+  height: 450px;
+  float: left;
+  margin: 50px 20px 0 85px;
+}
+
+#PICK2 .md img {
+  width: 250px;
+  height: 300px;
+  float: left;
+  margin-bottom: 30px;
+}
+
+.imgd {
+  margin-left: 70px;
+}
+
+#PICK2 p {
+  text-align: center;
+}
+
+#two {
+  width: 100%;
+  height: 700px;
+  background-color: #0b203f;
+}
+
+#leftcolor {
+  width: 50%;
+  height: 700px;
+  background-color: #0b203f;
+  float: left;
+}
+
+#leftcolor .imgg {
+  float: right;
+}
+
+#leftcolor img {
+  margin: 140px 120px;
+  width: 370px;
+  height: 400px;
+}
+
+#rightcolor {
+  width: 50%;
+  height: 700px;
+  background-color: white;
+  float: right;
+}
+
+#rightcolorbox {
+  width: 590px;
+  height: 100%;
+  margin: 0 auto;
+  float: left;
+}
+
+#rightcolor img {
+  margin: 90px 0 30px 140px;
+  width: 320px;
+  height: 300px;
+}
+
+#rightcolorbox p {
+  text-align: center;
+  font-family: "Arial";
+  font-size: 25pt;
+  font-weight: bolder;
+}
+
+#detail {
+  border: 1px solid black;
+  padding: 15px 40px 15px 40px;
+  margin: 40px 0 0 170px;
+  font-family: "Cambria";
+  font-weight: bolder;
+  font-size: 25pt;
+  text-align: center;
+  float: left;
+}
+
+#detail a {
+  text-decoration: none;
+  color: black;
+}
+
+#three {
+  width: 100%;
+  height: 750px;
+  background-color: #f3f2ee;
+}
+
+#threebox {
+  width: 1125px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+#threebox h1 {
+  font-size: 30pt;
+  font-family: "Arial";
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+#threebox img {
+  height: 350px;
+  width: 350px;
+  margin: 120px 0 0 50px;
+}
+
+#threebox b {
+  font-weight: bold;
+  font-size: 20pt;
+  font-family: "한컴고딕";
+}
+
+#threebox p {
+  font-size: 14pt;
+  font-family: "한컴고딕";
+  float: right;
+  margin: 130px 130px 0 0px;
+  line-height: 35px;
+}
