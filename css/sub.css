@@ -17,14 +17,16 @@ h3{padding: 10px 0 0 30px; font-size: 25px; position: absolute; right: 290px; to
 #cash{width: 450px; border-top: 3px solid#0b203f; border-bottom: 1px solid #0b203f; position: absolute; top: 135px; right: 50px; padding: 20px;font-size: 15px; line-height: 45px;}
 
 #ba{border-radius: 10px; width: 200px; height: 50px; position: absolute; top: 480px; font-size: 20px; text-align: center; font-weight: bolder; background-color:#0b203f ; color: white; right: 290px; border: none;}
+#ba:hover{background-color: #0b203fb0;}
 
 #bb{border-radius: 10px; width: 200px; height: 50px; position: absolute; top: 480px; font-size: 20px; text-align: center; font-weight: bolder; background-color: rgb(240, 22, 51) ; color: white; right: 50px; border: none;}
+#bb:hover{background-color: rgba(240, 22, 51, 0.699);}
 
 #subab p{ position: absolute; top:700px; text-align: center; right: 480px; font-weight: bolder; font-size: 30px;}
 
-#subab img{position: absolute; width: 1120px; height: 4000px; top: 800px; left: 2.5px;}
+#subab img{position: absolute; width: 1000px; height: 4000px; top: 800px; left: 60px;}
 
-#detail{position: absolute; top: 4950px; border: 1px solid gray; text-align: left; width: 900px; height: 500px; left: 120px;}
+#detail{position: absolute; top: 4950px; border: 1px solid gray; text-align: left; width: 900px; height: 500px; left: 120px; background-color:grey;}
 
-#detail th{background-color: gray; color: white; padding: 0 0 0 20px; width: 300px;}
-#detail td{background-color: floralwhite; color: gray; padding: 0 0 0 20px; width: 600px;}
+#detail th{background-color:grey; color: white; padding: 0 0 0 20px; width: 300px;}
+#detail td{background-color: white; color:grey; padding: 0 0 0 20px; width: 600px;}
