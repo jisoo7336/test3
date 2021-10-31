@@ -7,7 +7,7 @@ table, tr, th ,td {margin:0; padding:0; }
 
 body{font-family: Arial, Helvetica, sans-serif;}
 
-#subbackground{width: 1125px; height: 5600px; margin: 0 auto; position: relative; background-color:orange;}
+#subbackground{width: 1125px; height: 5600px; margin: 0 auto; position: relative;}
 
 h4{color: #777; position: absolute; top: 60px; left: 62px;}
 
@@ -41,4 +41,10 @@ button:hover{cursor: pointer;}
 
 #downView{background-color: yellowgreen; width: 1000px; height: 4800px; position: absolute; top: 800px; left: 62px;}
 
-#detail img{width: 1000px; height: 4000px;}
+#detail img{width: 1000px; height: 4200px;}
+
+.subdetail table{display:block; margin:100px 0 0 50px; line-height:30px;}
+
+.subdetail th {font-size:14px; text-align:left; width:200px; background-color:#ddd; padding:0 0 0 20px;}
+
+.subdetail td {font-size:14px; text-align:left; width:700px; background-color:#eee; padding:0 0 0 20px; color:#333;}
