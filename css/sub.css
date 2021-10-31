@@ -1,32 +1,44 @@
 @charset "utf-8";
 
 *{box-sizing: border-box;}
-body{font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #666;}
+* {margin:0; box-sizing:border-box; text-decoration:none; font-family: 'Noto Sans KR', sans-serif;}
+ul, ol, li {list-style:none; margin:0; padding:0;}
+table, tr, th ,td {margin:0; padding:0; }
 
-#sub{width: 1125px; height: 5600px; margin: 0 auto; position: relative;}
+body{font-family: Arial, Helvetica, sans-serif;}
 
-#subbox{width: 1000px; height: 600px; margin: 0 auto; border: 3px solid #0b203f;; box-sizing: border-box; position: absolute; padding: 50px; margin: 50px 0px 0 60px;}
+#subbackground{width: 1125px; height: 5600px; margin: 0 auto; position: relative; background-color:orange;}
 
-#sub img{width: 450px; height: 400px; position: absolute; top: 20px; left: 20px;}
+h4{color: #777; position: absolute; top: 60px; left: 62px;}
 
+#cartbox{width: 1000px; height: 650px; margin: 0px auto; border:3px solid #0b203f; position: absolute; top: 90px; left: 62px;}
 
-h3{padding: 10px 0 0 30px; font-size: 25px; position: absolute; right: 290px; top: 30px;}
+#cartbox img{ width: 450px; height: 450px; margin: 30px 0 0 30px;}
 
-#subbox p{padding: 0px 0 0 30px; font-size: 20px; color: red; position: absolute; right: 410px;top: 80px;}
+#View img{width: 100px; height: 100px; float: left;}
 
-#cash{width: 450px; border-top: 3px solid#0b203f; border-bottom: 1px solid #0b203f; position: absolute; top: 135px; right: 50px; padding: 20px;font-size: 15px; line-height: 45px;}
+#View li:hover{cursor: pointer;}
 
-#ba{border-radius: 10px; width: 200px; height: 50px; position: absolute; top: 480px; font-size: 20px; text-align: center; font-weight: bolder; background-color:#0b203f ; color: white; right: 290px; border: none;}
+h3{position: absolute; color: #0b203f; top: 60px; left: 500px; font-size: 25px;}
+
+#cartbox p{position: absolute; color: red; top:100px; left: 505px; font-size: 20px;} 
+
+#cash{width: 450px; border-top: 3px solid#0b203f; border-bottom: 1px solid #0b203f; position: absolute; top: 135px; right: 50px; padding: 20px;font-size: 15px; line-height: 52px;}
+
+#ba{border-radius: 10px; width: 200px; height: 50px; position: absolute; top: 550px; font-size: 20px; text-align: center; font-weight: bolder; background-color:#0b203f ; color: white; right: 300px; border: none;}
 #ba:hover{background-color: #0b203fb0;}
 
-#bb{border-radius: 10px; width: 200px; height: 50px; position: absolute; top: 480px; font-size: 20px; text-align: center; font-weight: bolder; background-color: rgb(240, 22, 51) ; color: white; right: 50px; border: none;}
+#bb{border-radius: 10px; width: 200px; height: 50px; position: absolute; top: 550px; font-size: 20px; text-align: center; font-weight: bolder; background-color: rgb(240, 22, 51) ; color: white; right: 50px; border: none;}
 #bb:hover{background-color: rgba(240, 22, 51, 0.699);}
 
-#subab p{ position: absolute; top:700px; text-align: center; right: 480px; font-weight: bolder; font-size: 30px;}
+button:hover{cursor: pointer;}
 
-#subab img{position: absolute; width: 1000px; height: 4000px; top: 800px; left: 60px;}
+#subba ul{position: absolute; top: 700px; width: 1000px; height: 30px; margin: 50px 0 0 60px;}
 
-#detail{position: absolute; top: 4950px; border: 1px solid gray; text-align: left; width: 900px; height: 500px; left: 120px; background-color:grey;}
+#subba ul li{float: left; width: 250px; height: 100%; ; text-align: center;  border-bottom: 2px solid #0b203f; font-size: 13px; margin-top: 11px; font-weight: bolder;}
 
-#detail th{background-color:grey; color: white; padding: 0 0 0 20px; width: 300px;}
-#detail td{background-color: white; color:grey; padding: 0 0 0 20px; width: 600px;}
+#subba ul li a{color:#0b203f;}
+
+#downView{background-color: yellowgreen; width: 1000px; height: 4800px; position: absolute; top: 800px; left: 62px;}
+
+#detail img{width: 1000px; height: 4000px;}
