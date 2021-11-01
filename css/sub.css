@@ -32,11 +32,29 @@ h3{position: absolute; color: #0b203f; top: 60px; left: 500px; font-size: 25px;}
 
 button:hover{cursor: pointer;}
 
-#subba  ul{position: absolute; top: -100px; width: 1000px; height: 30px; margin: 50px 0 0 20px; left: -20px;}
+#subba1  ul{position: absolute; top: -100px; width: 1000px; height: 30px; margin: 50px 0 0 20px; left: -20px;}
 
-#subba  ul .k{float: left; width: 250px; height: 100%; ; text-align: center;  border-bottom: 2px solid #0b203f; font-size: 13px; margin-top: 11px; font-weight: bolder;}
+#subba1  ul .k{float: left; width: 250px; height: 100%; ; text-align: center;  border-bottom: 2px solid #0b203f; font-size: 13px; margin-top: 11px; font-weight: bolder;}
 
-#subba  ul .k a{color:#0b203f;}
+#subba1  ul .k a{color:#0b203f;}
+
+#subba2  ul{position: absolute; top: -100px; width: 1000px; height: 30px; margin: 50px 0 0 20px; left: -20px;}
+
+#subba2  ul .k{float: left; width: 250px; height: 100%; ; text-align: center;  border-bottom: 2px solid #0b203f; font-size: 13px; margin-top: 11px; font-weight: bolder;}
+
+#subba2  ul .k a{color:#0b203f;}
+
+#subba3  ul{position: absolute; top: -100px; width: 1000px; height: 30px; margin: 50px 0 0 20px; left: -20px;}
+
+#subba3  ul .k{float: left; width: 250px; height: 100%; ; text-align: center;  border-bottom: 2px solid #0b203f; font-size: 13px; margin-top: 11px; font-weight: bolder;}
+
+#subba3  ul .k a{color:#0b203f;}
+
+#subba4  ul{position: absolute; top: -100px; width: 1000px; height: 30px; margin: 50px 0 0 20px; left: -20px;}
+
+#subba4  ul .k{float: left; width: 250px; height: 100%; ; text-align: center;  border-bottom: 2px solid #0b203f; font-size: 13px; margin-top: 11px; font-weight: bolder;}
+
+#subba4  ul .k a{color:#0b203f;}
 
 #downView{ width: 1000px; height: 4800px; position: absolute; top: 800px; left: 62px;}
 
@@ -76,4 +94,4 @@ button:hover{cursor: pointer;}
 
 #inquiry table{position: absolute; top: 50px; display: inline-block; margin: 0px auto; border-top: 1px solid #0b203f; line-height: 50px; width: 1000px; font-size: 13px;}
 
-#inquiry p{position: absolute; text-align: center; top: 150px; left: 400px; color: #777;}
+#inquiry th{position: absolute; text-align: center; top: 150px; left: 400px; color: #777;}
