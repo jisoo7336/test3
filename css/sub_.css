@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+* {margin:0; box-sizing:border-box; text-decoration:none; font-family: 'Noto Sans KR', sans-serif;}
+ul, ol, li {list-style:none; margin:0; padding:0;}
+table, tr, th ,td {margin:0; padding:0; }
+
+body{font-family: Arial, Helvetica, sans-serif;}
+
+#subbackground{width: 1125px; height: 5600px; margin: 0 auto; position: relative;}
+
+h4{color: #777; position: absolute; top: 60px; left: 62px;}
+
+#cartbox{width: 1000px; height: 650px; margin: 0px auto; border:3px solid #0b203f; position: absolute; top: 90px; left: 62px;}
+
+#cartbox img{ width: 450px; height: 450px; margin: 30px 0 0 30px;}
+
+#View img{width: 100px; height: 100px; float: left;}
+
+#View li:hover{cursor: pointer;}
+
+h3{position: absolute; color: #0b203f; top: 60px; left: 500px; font-size: 25px;}
+
+#cartbox p{position: absolute; color: red; top:100px; left: 505px; font-size: 20px;} 
+
+#cash{width: 450px; border-top: 3px solid#0b203f; border-bottom: 1px solid #0b203f; position: absolute; top: 135px; right: 50px; padding: 20px;font-size: 15px; line-height: 52px;}
+
+#ba{border-radius: 10px; width: 200px; height: 50px; position: absolute; top: 550px; font-size: 20px; text-align: center; font-weight: bolder; background-color:#0b203f ; color: white; right: 300px; border: none;}
+#ba:hover{background-color: #0b203fb0;}
+
+#bb{border-radius: 10px; width: 200px; height: 50px; position: absolute; top: 550px; font-size: 20px; text-align: center; font-weight: bolder; background-color: rgb(240, 22, 51) ; color: white; right: 50px; border: none;}
+#bb:hover{background-color: rgba(240, 22, 51, 0.699);}
+
+button:hover{cursor: pointer;}
+
+
+#downView{ width: 1000px; height: auto; position: absolute; top: 800px; left: 62px;}
+
+#subba{width: 100%; height: 50px; position: absolute; top: -50px; left: px;}
+#subba ul{ width: 1000px; height: 30px;  }
+
+#subba ul .k{float: left; width: 250px; height: 100%; ; text-align: center;  border-bottom: 2px solid #0b203f; font-size: 13px; margin-top: 11px; font-weight: bolder;}
+
+#subba ul .k a{color:#0b203f;}
+
+#detail img{width: 1000px; height: 4200px;}
+
+.subdetail table{display:block; margin:100px 0 0 155px; line-height:30px; background-color:#0b203f; width: 700px;}
+
+.subdetail th {font-size:14px; text-align:left; width:200px; background-color:#0b203f; padding:0 0 0 20px; color: white;}
+
+.subdetail td {font-size:14px; text-align:left; width:500px; background-color: white; padding:0 0 0 20px; color:#333;}
+
+#shipping{width: 1125px; height: auto; display: none;}
+
+#shipping h2{ position: absolute; float: left; margin: 20px 20px 0px; font-size: 20px; top: 50px; left: 450px;}
+
+#shippingbox{width: 100%; height: 270px; position:absolute;}
+
+#shippingbox ul{display: block; position: absolute; width: 1000px; height: 250px; top: 70px; padding: 10px; left: -10px;}
+
+#shippingbox ul li{font-size: 13px; margin: 25px;  text-overflow: 20px; text-align: center; line-height: 30px;}
+
+#review{width: 1125px; height: auto; display: none;}
+
+#review button{position: absolute; right: 50px; margin: 10px 0px; width: 120px; height: 30px; color: white; border: 1px solid #0b203f; background-color: #0b203f; border-radius: 5px;}
+#review button:hover{cursor: pointer;}
+
+#review table{position: absolute; top: 50px; display: inline-block; margin: 0px auto; border-top: 1px solid #0b203f; line-height: 50px; width: 1000px; font-size: 13px; }
+
+#review table th {width:80px; border-bottom:1px solid #eee; color:#0b203f}
+
+#review table td:first-of-type {width:770px; border-bottom:1px solid #eee;}
+
+#review table td:nth-of-type(2) {width:80px; text-align:center; border-bottom:1px solid #eee;}
+
+#review table td:nth-of-type(3) {width:120px; text-align:center; border-bottom:1px solid #eee;}
+
+#review table td:last-of-type {width:150px; text-align:center; border-bottom:1px solid #eee;}
+
+#inquiry{width: 1125px; height: auto; display: none;}
+
+#inquiry button{position: absolute; right: 50px; margin: 10px 0px; width: 120px; height: 30px; color: white; border: 1px solid #0b203f; background-color: #0b203f; border-radius: 5px;}
+#inquiry button:hover{cursor: pointer;}
+
+#inquiry table{position: absolute; top: 50px; display: inline-block; margin: 0px auto; border-top: 1px solid #0b203f; line-height: 50px; width: 1000px; font-size: 13px;}
+
+#inquiry th{position: absolute; text-align: center; top: 150px; left: 400px; color: #777;}
