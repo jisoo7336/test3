@@ -32,31 +32,15 @@ h3{position: absolute; color: #0b203f; top: 60px; left: 500px; font-size: 25px;}
 
 button:hover{cursor: pointer;}
 
-#subba1  ul{position: absolute; top: -100px; width: 1000px; height: 30px; margin: 50px 0 0 20px; left: -20px;}
 
-#subba1  ul .k{float: left; width: 250px; height: 100%; ; text-align: center;  border-bottom: 2px solid #0b203f; font-size: 13px; margin-top: 11px; font-weight: bolder;}
+#downView{ width: 1000px; height: auto; position: absolute; top: 800px; left: 62px;}
 
-#subba1  ul .k a{color:#0b203f;}
+#subba{width: 100%; height: 50px; position: absolute; top: -50px; left: px;}
+#subba ul{ width: 1000px; height: 30px;  }
 
-#subba2  ul{position: absolute; top: -100px; width: 1000px; height: 30px; margin: 50px 0 0 20px; left: -20px;}
+#subba ul .k{float: left; width: 250px; height: 100%; ; text-align: center;  border-bottom: 2px solid #0b203f; font-size: 13px; margin-top: 11px; font-weight: bolder;}
 
-#subba2  ul .k{float: left; width: 250px; height: 100%; ; text-align: center;  border-bottom: 2px solid #0b203f; font-size: 13px; margin-top: 11px; font-weight: bolder;}
-
-#subba2  ul .k a{color:#0b203f;}
-
-#subba3  ul{position: absolute; top: -100px; width: 1000px; height: 30px; margin: 50px 0 0 20px; left: -20px;}
-
-#subba3  ul .k{float: left; width: 250px; height: 100%; ; text-align: center;  border-bottom: 2px solid #0b203f; font-size: 13px; margin-top: 11px; font-weight: bolder;}
-
-#subba3  ul .k a{color:#0b203f;}
-
-#subba4  ul{position: absolute; top: -100px; width: 1000px; height: 30px; margin: 50px 0 0 20px; left: -20px;}
-
-#subba4  ul .k{float: left; width: 250px; height: 100%; ; text-align: center;  border-bottom: 2px solid #0b203f; font-size: 13px; margin-top: 11px; font-weight: bolder;}
-
-#subba4  ul .k a{color:#0b203f;}
-
-#downView{ width: 1000px; height: 4800px; position: absolute; top: 800px; left: 62px;}
+#subba ul .k a{color:#0b203f;}
 
 #detail img{width: 1000px; height: 4200px;}
 
@@ -66,6 +50,8 @@ button:hover{cursor: pointer;}
 
 .subdetail td {font-size:14px; text-align:left; width:500px; background-color: white; padding:0 0 0 20px; color:#333;}
 
+#shipping{width: 1125px; height: auto; display: none;}
+
 #shipping h2{ position: absolute; float: left; margin: 20px 20px 0px; font-size: 20px; top: 50px; left: 450px;}
 
 #shippingbox{width: 100%; height: 270px; position:absolute;}
@@ -73,6 +59,8 @@ button:hover{cursor: pointer;}
 #shippingbox ul{display: block; position: absolute; width: 1000px; height: 250px; top: 70px; padding: 10px; left: -10px;}
 
 #shippingbox ul li{font-size: 13px; margin: 25px;  text-overflow: 20px; text-align: center; line-height: 30px;}
+
+#review{width: 1125px; height: auto; display: none;}
 
 #review button{position: absolute; right: 50px; margin: 10px 0px; width: 120px; height: 30px; color: white; border: 1px solid #0b203f; background-color: #0b203f; border-radius: 5px;}
 #review button:hover{cursor: pointer;}
@@ -88,6 +76,8 @@ button:hover{cursor: pointer;}
 #review table td:nth-of-type(3) {width:120px; text-align:center; border-bottom:1px solid #eee;}
 
 #review table td:last-of-type {width:150px; text-align:center; border-bottom:1px solid #eee;}
+
+#inquiry{width: 1125px; height: auto; display: none;}
 
 #inquiry button{position: absolute; right: 50px; margin: 10px 0px; width: 120px; height: 30px; color: white; border: 1px solid #0b203f; background-color: #0b203f; border-radius: 5px;}
 #inquiry button:hover{cursor: pointer;}
